@@ -1,0 +1,110 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+h1{
+    font-size: 64px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    padding:30px;
+}
+#button{
+    background-color:#E02C6D;
+    padding:10px;
+    width: 165px;
+ }
+
+header{
+    background-color:#2D25A0;
+    color: white;
+    padding: 60px;
+    height:662px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav ul{
+    display: flex;
+    list-style-type: none;
+}
+.login{
+    background-color:#E02C6D;
+    padding:10px;
+}
+.header-banner{
+    display: flex;
+    margin-left:65px;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+ 
+ .right-part img{
+     width:556px;
+     height:438px;;
+ }
+ /* start main */
+ .players{
+     display: grid;
+     grid-template-columns: repeat(3,1fr);
+    width:1075px;
+    grid-column-gap:30px;
+    grid-row-gap:40px;
+    margin-top: 70px;
+    margin-left: 190px;
+    margin-right: 190px;
+}
+ .player{
+ padding: 20px;
+ background: #FFFFFF;
+box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+   
+ }
+ .player img{
+     height: 256px;
+     width: 300px;
+ }
+ /* start highlight */
+ .highlits{
+     display: flex;
+     margin-left:160px;
+     margin-right:160px;
+     margin-top: 165px;
+     justify-content: space-between;
+ }
+ .highlight-left-part{
+     width: 466px;
+     height: 310px;
+ }
+ .highlits img{
+     width: 567px;
+     height: 427px;
+ }
+ /* start footer */
+ .footer{
+     display: flex;
+     flex-direction: column;
+     align-items:center;
+     margin-top: 158px;
+     margin-bottom: 63px;
+ 
+ }
+ .footer img{
+     width:484px;
+     height:110px;
+ }
+ .social-icons{
+     display: flex;
+     height: 32px;
+     width: 170px;
+ }
+ .icon{
+     height: 32px;
+     width: 32px;
+ }
+ /* end footer */
+ 
